@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+img {
+    margin-top: 135px;
+    margin-left: 400px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box {
+    display: flex;
+}
+
+.text {
+    margin-top: 135px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 13px;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-variation-settings:
+      "SOFT" 0,
+      "WONK" 0;
+      padding-top: 20px;
+      font-size: 45px;
+  }
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 7px;
+  }
+
+  p {
+    padding-top: 15px;
+    font-size: 20px;
+    color: grey;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .price {
+    color: green;
+  }
+
+  .prices {
+    display: flex;
+  }
+
+  .cancelled {
+    padding-left: 50px;
+    padding-top: 40px;
+    text-decoration-line: line-through;
+  }
+
+  input {
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 115px;
+    padding-right: 115px;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
